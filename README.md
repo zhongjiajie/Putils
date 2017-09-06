@@ -1,27 +1,28 @@
 # weapon
-weapon武器库是日常工作中的工具集合
+[中文说明](/README_ZH.md)
+weapon is a collection of tools used in my daily work.
 
 ## wpn_date
-时间相关
+About date.
 
 **Class:**
-* `UnpackRangeDate` : 将给的时间段转成时期范围
+* `UnpackRangeDate` : Unpack date range to detail date
 
 **Function:**
-* `is_valid_date` : 验证是否符合给定的时间格式
-* `is_outdate` : 判断日期是否过期
+* `is_valid_date` : Whether date(string or integer) in format or not
+* `is_outdate` : Whether outdate or not
 
 ## wpn_file
-文件相关
+About file.
 
 **Class:**
 None
 
 **Function :**
-* `create_not_exists` : 创建文件夹
-* `delete_exists` : 删除文件或文件夹
-* `delete_outdate_file` : 删除过期文件或文件夹
-* `zip_file_folder` : 压缩文件或文件夹
+* `create_not_exists` : Create folder is not exists
+* `delete_exists` : Delete file or folder if exists
+* `delete_outdate_file` : Delete outdate file or folder
+* `zip_file_folder` : Zip file or folder
 
-## 觉得有意思？
-Star, Fork, 帮忙PR吧
+## interesting?
+Star, Fork, improve and PR. ;-)
